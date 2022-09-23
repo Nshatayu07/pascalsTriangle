@@ -70,3 +70,12 @@
     text-decoration: none;
     list-style: none;
 }
+.info3{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.info3 a{
+    text-decoration: none;
+}
