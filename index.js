@@ -1,6 +1,9 @@
-let num = document.getElementById("input1").addEventListener('input', function(){
-    pascalTriangle(this.value)
-});
+// let num = document.getElementById("input1").addEventListener('input', function(){
+//     pascalTriangle(this.value)
+// });
+
+
+
 
 // let n = document.getElementById("input1").value;
 // let x = parseInt("n");
@@ -15,7 +18,9 @@ let num = document.getElementById("input1").addEventListener('input', function()
 // //     pascalTriangle(num);
 // // }
 
-function pascalTriangle(numRows){
+function pascalTriangle(){
+
+    let numRows = document.getElementById("input1").value ;
 
     if (numRows === 0) return [];
     if (numRows === 1) return [[1]];
