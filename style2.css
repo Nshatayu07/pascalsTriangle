@@ -1,13 +1,14 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
+    background-color:black;
     color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0px;
 }
-
 .image{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     background-image: url('bg.png');
     background-size: cover;
@@ -20,7 +21,7 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    padding: 35px 0px;
+    padding: 20px 0px;
 }
 
 .logo{
@@ -51,30 +52,30 @@
 .navbar ul li a:hover::after{
     width: 100%;
 }
-
-.info{
-    text-align: center;
-    padding: 2rem 15rem;
+h1{
+    padding: 2rem;
+    font-size: 3rem;
+    font-style: italic;
 }
-
-.info a{
-    text-decoration: none;
-    /* list-style: none; */
-    color: rgb(144, 60, 255);;
-}
-.info2{
-    text-align: center;
-    padding: 1rem 15rem;
-}
-.info2 li{
-    text-decoration: none;
-    list-style: none;
-}
-.info3{
-    text-align: center;
+.enter{
+    padding: 1rem 1rem 1rem 1rem;;
     font-size: 1.5rem;
-    
+    font-family: sans-serif;
 }
-.info3 a{
-    text-decoration: none;
+input{
+    margin-bottom: 0.75rem;
+    padding-top: 0.5rem;
+    width: 12%;
+    font-size: inherit;
+    font-weight: bold;
+    border-radius: 24px;
+    color: whitesmoke;
+}
+
+button{
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+    background-color: rgb(52, 52, 52);
+    color: whitesmoke;
 }
