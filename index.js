@@ -34,6 +34,7 @@ function pascalTriangle(){
                 arr.push((result[row-2][col-1] + result[row-2][col]));
             }
         }
+        // setTimeout(result.push(arr), 100);
         result.push(arr);
     }
     function solve(){}
@@ -42,6 +43,7 @@ function pascalTriangle(){
         for(let j = 0 ; j < result[i].length ; j++){
             str += (result[i][j].toString() + " ");
         }
+        // setTimeout(document.getElementById('answer').innerHTML += `<p>${str}</p>`, 1000);
         document.getElementById('answer').innerHTML += `<p>${str}</p>`
     }
 }
