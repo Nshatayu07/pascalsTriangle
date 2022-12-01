@@ -31,7 +31,7 @@
 
 .logo{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     font-style: oblique;
 }
 .navbar ul li{
@@ -59,7 +59,7 @@
 }
 h1{
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: italic;
 }
 .enter{
@@ -69,7 +69,7 @@ h1{
 }
 input{
     margin-bottom: 0.75rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     width: 12%;
     font-size: inherit;
     font-weight: bold;
@@ -84,7 +84,7 @@ button{
     border-radius: 17px;
     background-color: rgb(52, 52, 52);
     color: whitesmoke;
-    margin-bottom: 3rem;
+    margin-bottom: 2.4rem;
 }
 .answer{
     size: 10px;

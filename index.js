@@ -34,18 +34,26 @@ function pascalTriangle(){
                 arr.push((result[row-2][col-1] + result[row-2][col]));
             }
         }
-        // setTimeout(result.push(arr), 100);
         result.push(arr);
     }
-    function solve(){}
+    
+        
+    
     for(let i = 0 ; i < result.length ; i++){
-        let str = "";
-        for(let j = 0 ; j < result[i].length ; j++){
-            str += (result[i][j].toString() + " ");
+        // let str = "";
+        function solve(){
+            let str = "";
+            for(let j = 0 ; j < result[i].length ; j++){
+                str += (result[i][j].toString() + " ");
+            }
+            document.getElementById('answer').innerHTML += `<p>${str}</p>`  
         }
-        // setTimeout(document.getElementById('answer').innerHTML += `<p>${str}</p>`, 1000);
-        document.getElementById('answer').innerHTML += `<p>${str}</p>`
+        setTimeout(function(){solve()},i*100);
+        // solve();
+         
     }
+
+
 }
 
 
