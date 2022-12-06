@@ -67,6 +67,11 @@ h1{
     font-size: 1.5rem;
     font-family: sans-serif;
 }
+.speed{
+    padding: 1rem 1rem 0rem 1rem;;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
 input{
     margin-bottom: 0.75rem;
     padding-top: 1rem;
@@ -76,6 +81,12 @@ input{
     border-radius: 24px;
     background-color: rgb(56, 55, 55);
     color: rgb(255, 255, 255);
+}
+#input2{
+    width: 8%;
+}
+.subs{
+    padding-bottom: 1rem;
 }
 
 button{

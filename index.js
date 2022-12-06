@@ -21,6 +21,7 @@
 function pascalTriangle(){
 
     let numRows = document.getElementById("input1").value ;
+    let speed = document.getElementById("input2").value ;
 
     if (numRows === 0) return [];
     if (numRows === 1) return [[1]];
@@ -39,16 +40,28 @@ function pascalTriangle(){
     
         
     
+    let count=0;
     for(let i = 0 ; i < result.length ; i++){
         // let str = "";
-        function solve(){
+        count++;
+        function solve(){            
             let str = "";
             for(let j = 0 ; j < result[i].length ; j++){
-                str += (result[i][j].toString() + " ");
+                str += (result[i][j].toString() + " ");               
             }
+            
+            // if(count==2){
+            //     str.style.color = "#DEA295";
+            //     count=0;
+            // }
+            // else{
+            //     str.style.color = "#95DEC9"
+            // }
             document.getElementById('answer').innerHTML += `<p>${str}</p>`  
         }
-        setTimeout(function(){solve()},i*100);
+        
+        let delay = speed*100;
+        setTimeout(function(){solve()},i*delay);
         // solve();
          
     }
