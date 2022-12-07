@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    color: whitesmoke;
+    color: antiquewhite;
 }
 
 .image{
@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 40px;
     font-style: oblique;
+    color: aqua;
 }
 .navbar ul li{
     display: inline-block;
@@ -60,7 +61,7 @@
 .info a{
     text-decoration: none;
     /* list-style: none; */
-    color: rgb(144, 60, 255);;
+    color: #d38988;
 }
 .info2{
     text-align: center;

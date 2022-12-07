@@ -50,14 +50,16 @@ function pascalTriangle(){
                 str += (result[i][j].toString() + " ");               
             }
             
-            // if(count==2){
-            //     str.style.color = "#DEA295";
-            //     count=0;
-            // }
-            // else{
-            //     str.style.color = "#95DEC9"
-            // }
-            document.getElementById('answer').innerHTML += `<p>${str}</p>`  
+            if(i&1)
+            {
+                document.getElementById('answer').innerHTML += `<p style="color:white">${str}</p>`  
+            }
+            else
+            {
+                document.getElementById('answer').innerHTML += `<p style="color:yellow">${str}</p>`  
+            } 
+
+
         }
         
         let delay = speed*100;

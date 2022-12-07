@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="style2.css">
     <title>Pascal's Triangle</title>
 </head>
+
 <body>
-    
+
     <div class="cont">
         <div class="image">
             <nav class="navbar">
@@ -16,38 +18,64 @@
                 <ul>
                     <li><a href="/Index.html">Home</a></li>
                     <li><a href="https://www.cuemath.com/algebra/pascals-triangle/" target="_blank">Information</a></li>
-                    <li><a href="https://www.mechamath.com/algebra/applications-of-pascals-triangle/" target="_blank">Applications</a></li>
+                    <li><a href="https://www.mechamath.com/algebra/applications-of-pascals-triangle/"
+                            target="_blank">Applications</a></li>
                     <li><a href="/result.html">Calculate</a></li>
                 </ul>
             </nav>
-            <h1>Make your pascal's triangle here!!</h1>
+            <h1 style="color: beige
+            ;">Make your pascal's triangle here!!</h1>
+            
             <div class="enter">
                 Enter the length of triangle :
             </div>
 
-            <input type="number" name="INPUT1" id="input1"/>
+            <input type="number" name="INPUT1" id="input1" />
             <!-- <input type="text" name="INPUT1" id="input1"/> -->
             <div class="speed">
-                Enter Transition speed : 
+                Enter Transition speed :
             </div>
-            <div class="subs">
+            <div class="subs  ">
                 (in milli-seconds)
             </div>
 
-            <input type="number" name="INPUT2" id="input2"/>
+            <input type="number" name="INPUT2" id="input2" />
 
 
 
-            <div class="submit"  >
+            <div class="submit">
                 <button type="submit" class="sub" onclick="pascalTriangle()">Submit</button>
                 <button type="reset" id="rest">Reset</button>
             </div>
 
             <span id="answer" class="ans">
             </span>
+        <br><br>
+            <p style="font-weight: bold; color:yellowgreen;">
+                Formula for Calculating Pascal's Triangle :
+            <p style="font-weight: bold;">
+                <br>
+                <sup>n</sup>C<sub>m</sub> = <sup>n-1</sup>C<sub>m-1 </sub>+ <sup>n-1</sup>C<sub>m</sub>
+            </p><br>
+
+            <p>where</p>
+<br>
+            <ul >
+                
+                    <sup>n</sup>C<sub>m</sub> represents the (m+1)<sup>th</sup> element in the n<sup>th</sup> row
+                <br>
+                
+                    n is a non-negative integer, and
+                <br>
+                
+                    0 &le; m &le; n.
+                
+            </ul>
+
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
     <script src="index.js"></script>
 </body>
-</html>                 
+
+</html>

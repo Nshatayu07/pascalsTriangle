@@ -1,6 +1,6 @@
 *{
     /* background-color:black; */
-    color: whitesmoke;
+    color: antiquewhite;
     text-align: center;
     align-items: center;
     font-family: sans-serif;
@@ -33,6 +33,7 @@
     text-decoration: none;
     font-size: 40px;
     font-style: oblique;
+    color: aqua;
 }
 .navbar ul li{
     display: inline-block;
